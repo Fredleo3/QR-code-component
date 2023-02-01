@@ -1,0 +1,101 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
+
+
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    --White: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;     
+    display: flex; 
+    flex-direction: column;      
+    align-items: center;
+}
+
+.container{
+    display: flex;     
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.qr-card{      
+    background-color: var(--White);
+    padding: 14px;
+    border-radius: 18px;
+    width: 260px;
+    height:430px;      
+}
+
+.qr-image{
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    color: var(--dark-blue);
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    color: var(--grayish-blue);
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+}
+
+.attribution { 
+    flex-grow: 0;        
+    font-size: 11px; 
+    text-align: center;
+    margin: 20px;    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
