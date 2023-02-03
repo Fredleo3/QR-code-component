@@ -15,7 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -71,7 +70,7 @@ Distribute the space of the elements according to their importance using flex-gr
 
 ## Author
 
-- GitHub - [Freddy León](https://github.com/Fredleo3)
+- GitHub - [Fredleo3](https://github.com/Fredleo3)
 - Frontend Mentor - [@Fredleo3](https://www.frontendmentor.io/profile/Fredleo3)
 
 
